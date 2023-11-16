@@ -11,5 +11,6 @@ plotly = "0.8.4"
 polars = "0.33.2"
 polars-core = "0.33.2"
 polars-io = "0.33.2"
-rand = "0.8.5"
+rand = { version = "0.8.5", features = ["small_rng"] }
 reqwest = { version = "0.11.14", optional = false, features = ["blocking"] }
+statrs = "0.16.0"
